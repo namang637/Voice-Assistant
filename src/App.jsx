@@ -94,7 +94,7 @@ const App = () => {
       setInformation(response);
       return;
     } else if (command.includes("what is your age")) {
-      const response = "Hello Sir I'm Leo, I'm 3 months day old.";
+      const response = "Hello Sir I'm Leo, I'm 3 months old.";
       speakText(response);
       setInformation(response);
       return;
